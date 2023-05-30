@@ -1,0 +1,282 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #e5e5e5;
+  font-family: "Roboto";
+  line-height: 1.618;
+}
+
+.content-container .top-image img {
+  position: absolute;
+  align-self: top;
+  top: 0px;
+  z-index: -1;
+  width: 100%;
+  height: 90vh;
+  min-height: 580px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  -o-object-position: top;
+     object-position: top;
+  filter: brightness(0.5);
+}
+.content-container .nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+.content-container .nav-container a {
+  text-decoration: none;
+  color: #555555;
+  font-weight: 300;
+}
+.content-container .nav-container a:hover {
+  color: #e91e63;
+  transition: 0.3s;
+}
+.content-container .nav-container .left-nav {
+  width: 800px;
+  max-width: calc(100vw - 400px);
+}
+.content-container .nav-container .right-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+}
+.content-container .nav-container .right-nav a {
+  font-size: 9pt;
+}
+.content-container .nav-container .right-nav button {
+  background-color: #e91e63;
+  border: none;
+  padding: 20px 22px;
+  border-radius: 100px;
+  font-size: 9pt;
+  color: white;
+}
+.content-container .nav-container .right-nav button:hover {
+  cursor: pointer;
+  box-shadow: 0px 5px 20px 0px rgba(233, 30, 99, 0.3);
+}
+.content-container .welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(90vh - 130px);
+  min-height: 450px;
+  color: white;
+}
+.content-container .welcome h1 {
+  font-size: 50pt;
+  margin-bottom: 0px;
+  margin-top: 80px;
+}
+.content-container .welcome p {
+  font-family: "Roboto Slab";
+  font-weight: 300;
+}
+.content-container .welcome button {
+  margin: 50px 0px;
+  width: 120px;
+  height: 50px;
+  background-color: #e91e63;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: 100;
+  font-size: 8pt;
+}
+.content-container .welcome button:hover {
+  cursor: pointer;
+  box-shadow: 0px 5px 20px 0px rgba(233, 30, 99, 0.3);
+}
+.content-container .white-card {
+  background-color: white;
+  margin: 0px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+.content-container .white-card .what-we-stand-for-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 80px;
+}
+.content-container .white-card .what-we-stand-for-container h2 {
+  font-size: 28pt;
+  font-family: "Roboto Slab";
+  color: #3c4858;
+}
+.content-container .white-card .what-we-stand-for-container .what-we-stand-for {
+  display: flex;
+  flex-direction: row;
+  width: 1120px;
+}
+.content-container .white-card .what-we-stand-for-container .what-we-stand-for .stand-for-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.content-container .white-card .what-we-stand-for-container .what-we-stand-for .stand-for-section h3 {
+  margin-top: 10px;
+  margin-bottom: 2px;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  color: #3c4858;
+}
+.content-container .white-card .what-we-stand-for-container .what-we-stand-for .stand-for-section p {
+  text-align: center;
+  font-size: 11pt;
+  font-weight: 100;
+  color: #999999;
+}
+.content-container .white-card .paralax-container {
+  background-image: url("https://wp-themes.com/wp-content/themes/hestia/assets/img/contact.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-container .white-card .paralax-container .about-hestia {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  padding: 80px;
+}
+.content-container .white-card .paralax-container .about-hestia h2 {
+  font-size: 40px;
+  color: white;
+  font-family: "Roboto Slab";
+  margin: 0px;
+}
+.content-container .white-card .paralax-container .about-hestia p {
+  flex-wrap: wrap;
+  color: white;
+}
+.content-container .white-card .paralax-container img {
+  width: 500px;
+}
+.content-container .white-card .blog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 0px;
+}
+.content-container .white-card .blog-container h2 {
+  font-size: 28pt;
+  font-family: "Roboto Slab";
+  color: #3c4858;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.content-container .white-card .blog-container .blogs {
+  display: flex;
+  flex-direction: row;
+}
+.content-container .white-card .blog-container .blogs .blog-section {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 350px;
+}
+.content-container .white-card .blog-container .blogs .blog-section a {
+  text-decoration: none;
+  font-size: 9pt;
+}
+.content-container .white-card .blog-container .blogs .blog-section a.purple {
+  color: #89229b;
+}
+.content-container .white-card .blog-container .blogs .blog-section a.blue {
+  color: #00bcd4;
+}
+.content-container .white-card .blog-container .blogs .blog-section a.red {
+  color: #f44336;
+}
+.content-container .white-card .blog-container .blogs .blog-section h3 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.content-container .white-card .blog-container .blogs .blog-section h3 a {
+  color: #3c4858;
+  font-family: "Roboto Slab";
+  font-size: 13pt;
+}
+.content-container .white-card .blog-container .blogs .blog-section p {
+  font-size: 10.5pt;
+  font-weight: 100;
+  color: #999999;
+}
+.content-container .white-card .blog-container .blogs .blog-section p a {
+  font-size: 10.5pt;
+  color: #23527c;
+}
+.content-container .white-card .get-in-touch-container {
+  background-image: url("https://wp-themes.com/wp-content/themes/hestia/assets/img/contact.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0px 60px 350px;
+  color: white;
+}
+.content-container .white-card .get-in-touch-container h2 {
+  font-size: 28pt;
+  font-family: "Roboto Slab";
+}
+.content-container .white-card .get-in-touch-container .contact {
+  display: flex;
+  flex-direction: row;
+}
+.content-container .white-card .get-in-touch-container .contact i {
+  font-size: 37px;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+.content-container .white-card .get-in-touch-container .contact .icon-wrapper h3 {
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  padding-bottom: 0px;
+}
+.content-container .white-card .get-in-touch-container .contact .icon-wrapper p {
+  font-size: 10.5pt;
+  font-weight: 100;
+}
+.content-container .footer-container {
+  background-color: #323437;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.content-container .footer-container a {
+  color: white;
+  text-decoration: none;
+}
+.content-container .footer-container .footer-left {
+  width: 800px;
+  max-width: calc(100vw - 300px);
+}
+.content-container .footer-container .footer-left a {
+  padding: 12px;
+  font-size: 11px;
+  font-weight: 300;
+}
+.content-container .footer-container .footer-right span {
+  font-size: 13px;
+  font-weight: 100;
+}/*# sourceMappingURL=home.css.map */
