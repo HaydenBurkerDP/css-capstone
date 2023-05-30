@@ -43,6 +43,9 @@ body {
   width: 800px;
   max-width: calc(100vw - 400px);
 }
+.content-container .nav-container .left-nav a:hover {
+  color: #999999;
+}
 .content-container .nav-container .right-nav {
   display: flex;
   justify-content: space-around;

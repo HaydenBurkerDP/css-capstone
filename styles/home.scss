@@ -49,6 +49,10 @@ body {
     .left-nav {
       width: 800px;
       max-width: calc(100vw - 400px);
+
+      a:hover {
+        color: #999999;
+      }
     }
 
     .right-nav {
